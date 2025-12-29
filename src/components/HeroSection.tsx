@@ -65,10 +65,17 @@ const HeroSection = () => {
               </a>
             </Button>
 
-            <Button variant="heroOutline" size="lg">
-              <Download className="mr-2 h-4 w-4" />
-              Download CV
-            </Button>
+            <a
+              href="https://drive.google.com/file/d/1Z-JE2d7Bm7MMERcG6Y3jvhakdh-4YL69/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button variant="heroOutline" size="lg">
+                <Download className="mr-2 h-4 w-4" />
+                Download CV
+              </Button>
+            </a>
+
 
             <Button variant="heroOutline" size="lg" asChild>
               <a href="#contact">
